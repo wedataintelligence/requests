@@ -3,6 +3,10 @@ pytest-cov
 pytest-httpbin==1.0.0
 pytest-mock==2.0.0
 httpbin==0.7.0
-Flask>=1.0,<2.0
+Flask>=2.2.5
 trustme
 wheel
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
